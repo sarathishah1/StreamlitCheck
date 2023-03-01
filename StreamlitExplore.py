@@ -9,7 +9,7 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
 # loading in the model to predict on the data
-
+!pip install scikit-learn
 def showdf():
     data = load_iris()
     X=data.data
